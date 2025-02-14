@@ -1,0 +1,159 @@
+body{  
+ margin-top: 40px;
+}
+h1{
+    color: darkolivegreen;
+    background-color: ivory;
+    margin-left: 150px;
+    margin-bottom: 35px;
+    font-size: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
+}
+.container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: olivedrab;
+    font-size: 30px;
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.new-book{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: olive;
+}
+.checkbox{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 22px;
+    color: olive;
+}
+.title{
+    font-weight: bold;
+    font-size: 25px;
+    color: olive;
+}
+.bookName{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: olive;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid olive;
+    padding: 12px;
+}
+.belum-selesai{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: 2px solid olivedrab;
+    padding: 15px;
+    width: 500px;
+    height: max-content;
+}
+.selesai{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: 2px solid olivedrab;
+    padding: 15px;
+    width: 500px;
+    height: max-content;
+}
+.tambah-buku{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: 2px solid olivedrab;
+    padding: 15px;
+    width: fit-content;
+    margin-left: 50px;
+}
+.searching{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: 2px solid olivedrab;
+    padding: 25px;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 480px;
+    height: 150px;
+}
+
+/* ini stylling Button */
+.formSubmit{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 18px 25px;
+    border-radius: 12px;
+    border: none;
+    background-color: olivedrab;
+    color: white;
+}
+.formSubmit:hover{
+    background-color: ivory;
+    border: 2px solid olivedrab;
+    color: olivedrab;
+}
+.searchButton{
+    font-size: 16px;
+    font-weight: 550;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+    background-color: olivedrab;
+    color: white;
+}
+.searchButton:hover{
+    background-color: ivory;
+    border: 2px solid olivedrab;
+    color: olivedrab;
+}
+.buttons{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 10px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border:none;
+    background-color: olivedrab;
+    color: white;
+}
+.buttons:hover{
+    background-color: ivory;
+    border: 2px solid olivedrab;
+    color: olivedrab;
+}
+
+/* stylling buat formnya */
+form{
+    width: 400px;
+    margin: 15px;
+    padding: 10px;
+}
+form input{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid olive;
+    border-radius: 5px;
+}
+.checkbox form input{
+    width: 50%;
+    border: 2px solid olive;
+}
